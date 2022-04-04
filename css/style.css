@@ -42,11 +42,38 @@
     right: 0px;
     height: 60px;
     width: 100px;
-    background: #373F41
+    background: #373F41;
+}
+
+/*----------- card -----------*/
+.cards {
+    margin-bottom: 60px;
+}
+
+.card {
+    margin: 30px;
+}
+
+.card-info {
+    padding: 20px;
+    background: #F2F4F8;
+}
+
+.card-info p {
+    font-size: 16px;
+    color: #999FAA;
+}
+
+.card-info button {
+    color: #F2F4F8;
+    background: #373F41;
+    border-radius: 5px;
+    padding: 5px 16px;
 }
 
 
-/*----------- footer ---------- */
+
+/*----------- footer ----------*/
 .footer-info img {
     width: 70px;
 }
