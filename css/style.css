@@ -1,5 +1,80 @@
 /*-------- top header --------*/
-.top-header {
+.top-header,
+.footer-bottom {
     background-color: #373F41;
     color: #fff;
+}
+
+/*----------- search bar ---------  */
+.search-bar {
+    margin: 120px 0px;
+    /* border: 2px solid red; */
+}
+
+.search {
+    /* border: 2px solid blue; */
+    background: #949496;
+    border-radius: 16px;
+    position: relative;
+    /* box-shadow: 0 0 40px rgba(51, 51, 51, .1) */
+}
+
+.search input {
+    height: 60px;
+    text-indent: 25px;
+    border: 0;
+    border-radius: 12px;
+    background-color: #F2F4F8;
+}
+
+.search .fa-search {
+    margin-right: 15px;
+    position: absolute;
+    top: 25px;
+    left: 20px
+}
+
+.search button {
+    border-radius: 12px;
+    border: 0;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 60px;
+    width: 100px;
+    background: #373F41
+}
+
+
+/*----------- footer ---------- */
+.footer-info img {
+    width: 70px;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: left;
+}
+
+.social-icon {
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 10px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.social-icon:hover {
+    background-color: rgb(242, 106, 56);
+    color: black;
+}
+
+.footer-horizental-line {
+    width: 35px;
+    height: 3px;
+    background-color: coral;
+    margin-left: 1px;
+    margin-bottom: 15px;
 }
